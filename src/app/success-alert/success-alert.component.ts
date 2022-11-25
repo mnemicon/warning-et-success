@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-success-alert',
@@ -8,6 +8,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class SuccessAlertComponent implements OnInit {
   faCoffee = faCoffee;
+  faThumbsUp = faThumbsUp;
 
   constructor() { }
 

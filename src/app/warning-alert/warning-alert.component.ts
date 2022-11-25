@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons/';
+import { faThumbsDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-warning-alert',
@@ -8,6 +9,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class WarningAlertComponent implements OnInit {
   faCoffee = faCoffee;
+  faThumbsDown = faThumbsDown;
 
   constructor() { }
 
